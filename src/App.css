@@ -49,9 +49,23 @@ footer {
     margin-block: auto;
 }
 
+.portfolio--image {
+    height: 300px;
+    width: auto;
+    border-radius: 0px 50px;
+}
+
 /* Stylings About section */
 .portfolio--about {
     padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    max-width: 992px;
+    max-height: fit-content;
+    margin-top: 50px;
+    border: 1px solid #3D3D3D;
 }
 
 .headline {
@@ -64,7 +78,11 @@ footer {
     margin-bottom: 30px;
 }
 
-.portfolio--image {
+.name-section {
+    width: 66%
+}
+
+.about--portfolio-image {
     width: 450px;
     height: 600px;
     border-radius: 0px 50px;
