@@ -1,23 +1,78 @@
-.nav-item {
-    margin: 5px;
+/* Navbar Stylings */
+.header--navbar {
+    display: flex;
+    flex-direction: row;
+    color: #DEDDDD;
+    align-items: center;
 }
 
-.header--navbar {
-    box-shadow: 1px 1px 7px #c7c7c7;
+.navbar-logo {
+    height: auto;
+    margin-right: 15px;
+}
+
+.nav-item {
+    margin: 5px 10px 5px 10px;
+}
+
+.nav--contact {
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    color: #DEDDDD;
+}
+
+.footer-info {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.footer-a {
+    margin: 5px 10px 5px 10px
+}
+
+
+/*Stylings Index Page */
+.index-page {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.index-page > h1 {
+    margin-block: auto;
+}
+
+/* Stylings About section */
+.portfolio--about {
+    padding: 50px;
 }
 
 .headline {
     margin-bottom: 1px;
+    font-size: 50px;
 }
 
 .subheadline {
     margin-top: 0px;
+    margin-bottom: 30px;
 }
 
-
 .portfolio--image {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 600px;
+    border-radius: 0px 50px;
+}
+
+/* Stylings Project section */
+.main--projects {
+    padding: 50px;
 }
 
 .card-custom-size {
@@ -33,11 +88,16 @@
 
 a {
     text-decoration: none;
+}
+
+.portfolio-anchor {
+    text-decoration: none;
+    font-weight: 300;
     color: inherit;
 }
 
 a:hover {
-    color: red;
+    font-weight: bold;
 }
 
 a:active {
@@ -46,4 +106,54 @@ a:active {
 
 a:visited {
     color: inherit;
+}
+
+/* Stylings Work section */
+.main--work {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    max-width: 992px;
+    max-height: fit-content;
+    margin-top: 50px;
+    border: 1px solid #3D3D3D;
+}
+
+.work--headline {
+    margin-right: auto;
+    height: fit-content;
+}
+
+.work--list {
+    height: fit-content;
+}
+
+.work--list-item {
+    padding: 10px;
+}
+
+/*Stylings Education section */
+.main--education {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    max-width: 992px;
+    max-height: fit-content;
+    margin-top: 50px;
+    border: 1px solid #3D3D3D;
+}
+
+.education--headline {
+    margin-right: auto;
+    width: 50%;
+    height: fit-content
+}
+
+.education {
+    width: 50%;
+    height: fit-content;
 }

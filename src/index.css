@@ -3,3 +3,15 @@
   margin: 0;
   padding: 0;
 }
+
+.App-body {
+  background-color: #212121;
+}
+
+.main--content {
+  min-height: calc(100vh - 75px - 56px);
+  background-color: #212121;
+  color: #DEDDDD;
+  display: flex;
+  justify-content: center;
+}
