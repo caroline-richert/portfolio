@@ -82,6 +82,11 @@ footer {
     width: 66%
 }
 
+.name-about-section {
+    color: #DEDDDD;
+    padding: 10px;
+}
+
 .about--portfolio-image {
     width: 450px;
     height: 600px;

@@ -22,8 +22,8 @@ function Education(){
                         </div>
                         <a
                         className="portfolio-anchor"
-                        href="#"
-                        target="_blank"> SheCodes Plus Certificate
+                        href="https://www.shecodes.io/certificates/241927992d9913fa400c5885126fd270"
+                        target="_blank"> SheCodes WebDevelopment Certificate
                         </a>
                     </li>
                 </ul>
